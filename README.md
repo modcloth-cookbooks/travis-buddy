@@ -3,7 +3,7 @@ travis-buddy Cookbook
 
 Downloads and installs [travis-buddy](https://github.com/modcloth-labs/travis-buddy)
 
-Used for downloading binaries for s3, among other things
+Used for downloading binaries from S3.  Ideal for use with travis-buddy.
 
 Contributing
 ------------
