@@ -5,6 +5,4 @@ default['install_prefix'] = (
   }.fetch(node['platform'], '/usr/local')
 )
 
-# NOTE: this default will be changed to 'master' after the `artifact-download`
-# functionality is merged in.
-default['travis_buddy']['rev'] = 'add-binary-downloading'
+default['travis_buddy']['rev'] = 'master'
