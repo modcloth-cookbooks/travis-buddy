@@ -26,7 +26,7 @@
 
 {
   'tb' => "https://raw.github.com/modcloth-labs/travis-buddy/#{node['travis_buddy']['rev']}/tb",
-  'aws' => 'https://raw.github.com/timkay/aws/master/aws'
+  'aws' => "https://raw.github.com/timkay/aws/#{node['travis_buddy']['aws_rev']}/aws"
 }.each do |exe,source_url|
   remote_file "#{node['install_prefix']}/bin/#{exe}" do
     source source_url
