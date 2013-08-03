@@ -15,5 +15,4 @@ See [CONTRIBUTING](CONTRIBUTING.md)
 License and Authors
 -------------------
 
-See [LICENSE](LICENSE.txt) and [AUTHORS](AUTHORS.md)
-
+See [LICENSE](LICENSE) and [AUTHORS](AUTHORS.md)
